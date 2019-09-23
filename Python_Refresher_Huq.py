@@ -22,6 +22,11 @@ cos_y = np.cos(x)
 # thing as previously described above the first plt.plot
 plt.plot(x, cos_y, linewidth=3, label='Cosine')
 
+# Adding a tan using numpy
+tan = np.tan(x)
+plt.plot(x,tan, label = 'Tan', c = 'o')
+# This adds the tan period to the graph and assigns it a color orange
+
 # Adding appropriate title
 plt.title('One Period Plot of Sine and Cosine')
 
