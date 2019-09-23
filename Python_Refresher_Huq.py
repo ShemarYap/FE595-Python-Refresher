@@ -24,7 +24,7 @@ plt.plot(x, cos_y, linewidth=3, label='Cosine')
 
 # Adding a tan using numpy
 tan = np.tan(x)
-plt.plot(x,tan, label = 'Tan', c = 'o')
+plt.plot(x,tan, label = 'Tan', c = 'orange')
 # This adds the tan period to the graph and assigns it a color orange
 
 # Adding appropriate title
